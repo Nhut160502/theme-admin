@@ -3,14 +3,14 @@ import { Route, Routes } from 'react-router-dom'
 import { CContainer, CSpinner } from '@coreui/react'
 
 // routes config
-import { privateRouters } from '../../../routes'
+import { privateRoutes } from '../../../router'
 
 const AppContent = () => {
   return (
     <CContainer lg>
       <Suspense fallback={<CSpinner color="primary" />}>
         <Routes>
-          {privateRouters.map((route, idx) => {
+          {privateRoutes.map((route, idx) => {
             return (
               route.element && (
                 <Route

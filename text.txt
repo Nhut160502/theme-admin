@@ -1,9 +1,2 @@
 npm i @coreui/icons-react @coreui/icons @coreui/react simplebar-react @coreui/react-chartjs @coreui/utils simplebar antd
 
-export const privateRoutes = [
-  {
-    path: '/dashboard',
-    element: Dashboard,
-    layout: DefaultLayout,
-  },
-]
