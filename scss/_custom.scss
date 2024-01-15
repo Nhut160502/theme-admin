@@ -1,0 +1,168 @@
+// Here you can add other styles
+.btn-add-dash {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.wrapper-form {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+
+  form {
+    width: 600px;
+  }
+}
+.form-upload {
+  .btn-upload {
+    display: flex;
+    align-items: center;
+  }
+  .preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    .infor {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    > button {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
+.drops-attr {
+  min-width: 100px;
+}
+
+.image-custom {
+  max-width: 300px;
+}
+.ant-table-cell {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Toastify__toast-container {
+  z-index: 99999;
+}
+.Toastify__toast-body {
+  > div {
+    text-transform: capitalize;
+  }
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  > a {
+    display: block;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.ant-modal-footer {
+  .ant-btn-primary {
+    background-color: #ff4d4f !important;
+  }
+}
+
+.title-modal-custom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  img {
+    width: 30px;
+  }
+  span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.ant-form-item-control-input-content {
+  position: relative;
+}
+
+.form-add-wrapper {
+  position: fixed;
+  top: -100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  margin: 0 0 100px;
+
+  &.active {
+    top: 0;
+  }
+  .form-add-content {
+    background-color: #fff;
+    padding: 40px;
+    position: relative;
+
+    .form-add-btn-close {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+  }
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}
+
+.ant-modal {
+  top: 140px !important;
+}
+
+.control {
+  position: relative;
+  .btn-open-form {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    padding: 5px;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+}
+.ant-select-dropdown {
+  z-index: 99999;
+}
+.ant-input,
+.ant-select-item-option-content {
+  text-transform: capitalize;
+}
+
+.ant-select-selection-item {
+  text-transform: capitalize;
+}
